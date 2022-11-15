@@ -104,6 +104,10 @@ ul {
 .container-navigation {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.push {
+    margin-left: auto;
 }
