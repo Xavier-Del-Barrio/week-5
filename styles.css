@@ -207,9 +207,10 @@ footer {
   }
   
   .slider {
-    width: 300px;
+    width: 600px;
     text-align: center;
     overflow: hidden;
+    
   }
   
   .slides {
@@ -231,9 +232,10 @@ footer {
   .slides::-webkit-scrollbar {
     width: 10px;
     height: 10px;
+    
   }
   .slides::-webkit-scrollbar-thumb {
-    background: black;
+    background: grey;
     border-radius: 10px;
   }
   .slides::-webkit-scrollbar-track {
@@ -257,6 +259,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 100px;
+   
   }
   .slides > div:target {
   /*   transform: scale(0.8); */
@@ -288,12 +291,13 @@ footer {
     border-radius: 50%;
     margin: 0 0 0.5rem 0;
     position: relative;
+    font-family: 'Sono', sans-serif;
   }
   .slider > a:active {
     top: 1px;
   }
   .slider > a:focus {
-    background: #000;
+    background: rgb(0, 0, 0);
   }
   
   /* Don't need button navigation */
@@ -303,5 +307,8 @@ footer {
     }
   }
   
+  .slide-image {
+    border-radius: 10px;
+  }
   
   
